@@ -1,7 +1,7 @@
 # Prepare for Dockerfile
 
-Create your Dockerfile at the root, similar place with the .sln file.
-for basic configuration your docker file loks like the following 
+# Create your Dockerfile at the root, similar place with the .sln file.
+# for basic configuration your docker file loks like the following 
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0-alpine as build
 
@@ -40,7 +40,7 @@ if your Project Has Dependency of any Other Project in your solution Follow this
 
 # 1  go to Your Api Project Root and Add This Tag
 
-   <EnableSdkContainerSupport>true</EnableSdkContainerSupport>
+   "<EnableSdkContainerSupport>true</EnableSdkContainerSupport>"
 
 # 2  use the following Command To Publish and Create Image
  
