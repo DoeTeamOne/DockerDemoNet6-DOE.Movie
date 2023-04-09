@@ -40,7 +40,7 @@ if your Project Has Dependency of any Other Project in your solution Follow this
 
 # 1  go to Your Api Project Root and Add This Tag
 
-   "<EnableSdkContainerSupport>true</EnableSdkContainerSupport>"
+   EnableSdkContainerSupport true   /EnableSdkContainerSupport      --- Open close Bracket
 
 # 2  use the following Command To Publish and Create Image
  
